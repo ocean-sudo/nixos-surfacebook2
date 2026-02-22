@@ -1,0 +1,17 @@
+// Niri config file managed via home.file for easy post-install edits.
+// Adjust freely after installation.
+
+input {
+  keyboard {
+    xkb {
+      layout "us"
+    }
+  }
+}
+
+layout {
+  gaps 8
+  border {
+    width 2
+  }
+}
