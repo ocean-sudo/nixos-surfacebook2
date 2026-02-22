@@ -13,6 +13,11 @@ Minimal NixOS flake for Surface Book 2 (NVIDIA 1050) with:
 - `home/ocean`: home-manager
 - `home/ocean/.config`: dotfiles (`niri`, `noctalia`, `nvim`)
 
+## Dotfile behavior
+- Browser configs (`zen`, `qutebrowser`) are not declaratively overridden.
+- `niri` / `noctalia` / `nvim` templates are seeded to `~/.config` and stay user-editable.
+- `xdg-user-dirs` is pinned to English names (`Downloads`, `Pictures`, etc.) even with Chinese locale.
+
 ## Important
 1. Initial user/password is `ocean / 1234`. Change it after first login.
 2. Login manager is `greetd` (`tuigreet`) and is declared in `modules/common/niri-core.nix`.
