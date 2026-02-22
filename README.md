@@ -10,7 +10,8 @@ Minimal NixOS flake for Surface Book 2 (NVIDIA 1050) with:
 ## Structure
 - `hosts/SurfaceBook2`: host-specific files
 - `modules/common`: reusable minimal modules
-- `home/ocean`: home-manager and dotfiles (`home.file`)
+- `home/ocean`: home-manager
+- `home/ocean/.config`: dotfiles (`niri`, `noctalia`, `nvim`)
 
 ## Important
 1. Initial user/password is `ocean / 1234`. Change it after first login.

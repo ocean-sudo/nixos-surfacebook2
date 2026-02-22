@@ -34,17 +34,17 @@
 
   # Keep Niri/Noctalia as editable dotfiles managed declaratively via home.file.
   home.file.".config/niri" = {
-    source = ./niri;
+    source = ./.config/niri;
     recursive = true;
   };
 
   home.file.".config/noctalia" = {
-    source = ./noctalia;
+    source = ./.config/noctalia;
     recursive = true;
   };
 
   home.file.".config/nvim" = {
-    source = ./nvim;
+    source = ./.config/nvim;
     recursive = true;
   };
 }
